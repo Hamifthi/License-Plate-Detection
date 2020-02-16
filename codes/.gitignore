@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -42,7 +43,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*,cover
 .hypothesis/
 
 # Translations
@@ -68,6 +69,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb_checkpoints/
 
 # pyenv
 .python-version
@@ -78,40 +80,19 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# dotenv
 .env
+
+# virtualenv
 .venv
-env/
 venv/
 ENV/
 
 # Spyder project settings
 .spyderproject
-.spyproject
 
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-# SSD codes
-/codes/bounding_box_utils/*
-/codes/data_generator/*
-/codes/eval_utils/*
-/codes/examples/*
-/codes/keras_layers/*
-/codes/keras_loss_function/*
-/codes/misc_utils/*
-/codes/models/*
-/codes/ssd_encoder_decoder/*
-/codes/videoImages/*
-# backgrounds
-/Backgrounds
-/images
-/charOnPlates
-/Characterslist
-/PersianCharactersList
-/Plates
+# Custom files
+local

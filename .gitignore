@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
@@ -98,16 +97,16 @@ ENV/
 # mypy
 .mypy_cache/
 # SSD codes
-/codes/bounding_box_utils/*
-/codes/data_generator/*
-/codes/eval_utils/*
-/codes/examples/*
-/codes/keras_layers/*
-/codes/keras_loss_function/*
-/codes/misc_utils/*
-/codes/models/*
-/codes/ssd_encoder_decoder/*
-/codes/videoImages/*
+/codes/bounding_box_utils
+/codes/data_generator
+/codes/eval_utils
+/codes/examples
+/codes/keras_layers
+/codes/keras_loss_function
+/codes/misc_utils
+/codes/models
+/codes/ssd_encoder_decoder
+/codes/videoImages
 # backgrounds
 /Backgrounds
 /images
